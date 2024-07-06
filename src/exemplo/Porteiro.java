@@ -29,7 +29,7 @@ public class Porteiro extends Thread {
 					observer.chegou(event);
 				}
 			} else {
-				System.out.println("Alarme falso!");
+				System.out.println("Não era ele, o porteiro se confindiu!");
 			}
 	}
 	}
